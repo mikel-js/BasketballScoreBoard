@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import Scoreboard from './components/Scoreboard/Scoreboard';
+import ScoreBoard from './components/ScoreBoard/ScoreBoard';
 
 function App() {
   return (
     <div className="App">
-      <Scoreboard />
+      <ScoreBoard />
     </div>
   );
 }

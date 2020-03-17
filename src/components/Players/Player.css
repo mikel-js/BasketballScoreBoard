@@ -1,3 +1,15 @@
+.players-score-lakers {
+  font-size: 1.7em;
+  font-weight: bold;
+  color: #d580ff
+}
+
+.players-score-celtics {
+  font-size: 1.7em;
+  font-weight: bold;
+  color: #BA9653
+}
+
 .fa-arrow-up, .fa-arrow-down {
   font-size: 1.5em;
   margin: 3px;

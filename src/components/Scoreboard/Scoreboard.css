@@ -1,3 +1,17 @@
+body {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ), url('../../images/basketball1.jpg') no-repeat center center fixed;
+  color: white;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Orbitron', sans-serif;
+
+}
+
 .scoreboard-container {
   display: flex;
   flex-direction: row;
@@ -8,3 +22,33 @@
 .scoreboard-team {
   margin: 5em;
 }
+
+.scoreboard-button-lakers {
+  font-size: 1.5em;
+  background-color: #FDB927; 
+  color: black; 
+  border: 2px solid #d580ff;
+  border-radius: 20%;
+  outline: none;
+}
+
+.scoreboard-button-lakers:hover {
+  background-color: #d580ff;
+  color: white;
+}
+
+.scoreboard-button-celtics {
+  font-size: 1.5em;
+  background-color: #007A33; 
+  color: black; 
+  border: 2px solid #BA9653;
+  border-radius: 20%;
+  outline: none;
+}
+
+.scoreboard-button-celtics:hover {
+  background-color: #BA9653;
+  color: white;
+}
+
+

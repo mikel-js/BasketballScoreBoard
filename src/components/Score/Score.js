@@ -1,4 +1,5 @@
 import React from 'react';
+import './Score.css'
 
 const Score =({team, name}) => {
   
@@ -8,7 +9,7 @@ const Score =({team, name}) => {
 
   return(
     <div>
-      <h1>{name}</h1>
+      <h1 className={name === 'Lakers' ? 'lakers' : 'celtics'}>{name}</h1>
       <h2>{totalScore}</h2>
     </div>
   )

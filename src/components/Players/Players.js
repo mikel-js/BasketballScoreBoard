@@ -1,14 +1,14 @@
 import React from 'react';
 import './Player.css';
 
-const Players = ({ name, point, upPoints, downPoints }) => {
+const Players = ({ team, name, point, incrementPts, decrementPts }) => {
 
   return (
-    <div>
+    <div className={team === 'lakers' ? 'players-score-lakers' : 'players-score-celtics'}>
       {name} :
-      <i className='fas fa-arrow-up' onClick={upPoints}></i>
+      <i className='fas fa-arrow-up' onClick={incrementPts}></i>
       {point}
-      <i className='fas fa-arrow-down' onClick={downPoints}></i>
+      <i className='fas fa-arrow-down' onClick={decrementPts}></i>
     </div>
   )
 }
